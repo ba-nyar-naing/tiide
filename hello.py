@@ -9,3 +9,6 @@ def hello():
 @app.route("/banyar")
 def banyar():
     return "Ba Nyar Naing"
+
+if __name__ == "__main__":
+    app.run()
